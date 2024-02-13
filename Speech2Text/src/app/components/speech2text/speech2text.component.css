@@ -1,0 +1,24 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin-top: 0;
+}
+.box{
+  display: flex;
+  padding: 2rem;
+  align-items:start;
+  height: 50%;
+  margin-top: 1rem;
+  width: 80%;
+  border: 2px solid rgb(138, 7, 147);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+mat-form-field{
+  width: 400% !important;
+}
